@@ -1,0 +1,15 @@
+name: ConfigsPlaceholders
+version: ${project.version}
+main: me.shakeforprotein.configsplaceholders.ConfigsPlaceholders
+api-version: 1.13
+depend: [PlaceholderAPI]
+authors: [ShakeforProtein]
+description: Returns any config value from any plugin with a datafolder in the plugins directory as a placeholder value
+
+commands:
+  cpreload:
+    permission: cp.admin
+
+permissions:
+  cp.admin:
+    default: op

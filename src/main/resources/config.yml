@@ -1,0 +1,7 @@
+Shortcuts:
+  example: 'ConfigsPlaceholders|TestValues.example'
+TestValues:
+  example: '111222'
+BlockedWords:
+  - 'password'
+  - 'pass'
